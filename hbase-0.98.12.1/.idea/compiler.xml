@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="hbase-hadoop2-compat" />
+        <module name="hbase-shell" />
+        <module name="hbase-annotations" />
+        <module name="hbase-common" />
+        <module name="hbase-testing-util" />
+        <module name="hbase-server" />
+        <module name="hbase-prefix-tree" />
+        <module name="hbase-examples" />
+        <module name="hbase-thrift" />
+        <module name="hbase-client" />
+        <module name="hbase-hadoop-compat" />
+        <module name="hbase-protocol" />
+        <module name="hbase-rest" />
+        <module name="hbase-checkstyle" />
+        <module name="hbase-it" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="hbase" target="1.5" />
+      <module name="hbase-annotations" target="1.6" />
+      <module name="hbase-assembly" target="1.5" />
+      <module name="hbase-checkstyle" target="1.6" />
+      <module name="hbase-client" target="1.6" />
+      <module name="hbase-common" target="1.6" />
+      <module name="hbase-examples" target="1.6" />
+      <module name="hbase-hadoop-compat" target="1.6" />
+      <module name="hbase-hadoop2-compat" target="1.6" />
+      <module name="hbase-it" target="1.6" />
+      <module name="hbase-prefix-tree" target="1.6" />
+      <module name="hbase-protocol" target="1.6" />
+      <module name="hbase-rest" target="1.6" />
+      <module name="hbase-server" target="1.6" />
+      <module name="hbase-shell" target="1.6" />
+      <module name="hbase-testing-util" target="1.6" />
+      <module name="hbase-thrift" target="1.6" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="hbase-annotations" options="-Xlint:-options" />
+      <module name="hbase-checkstyle" options="-Xlint:-options" />
+      <module name="hbase-client" options="-Xlint:-options" />
+      <module name="hbase-common" options="-Xlint:-options" />
+      <module name="hbase-examples" options="-Xlint:-options" />
+      <module name="hbase-hadoop-compat" options="-Xlint:-options" />
+      <module name="hbase-hadoop2-compat" options="-Xlint:-options" />
+      <module name="hbase-it" options="-Xlint:-options" />
+      <module name="hbase-prefix-tree" options="-Xlint:-options" />
+      <module name="hbase-protocol" options="-Xlint:-options" />
+      <module name="hbase-rest" options="-Xlint:-options" />
+      <module name="hbase-server" options="-Xlint:-options" />
+      <module name="hbase-shell" options="-Xlint:-options" />
+      <module name="hbase-testing-util" options="-Xlint:-options" />
+      <module name="hbase-thrift" options="-Xlint:-options" />
+    </option>
+  </component>
+</project>

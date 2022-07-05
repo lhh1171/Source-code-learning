@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/hbase-annotations/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hbase-checkstyle/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hbase-client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hbase-client/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hbase-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hbase-common/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hbase-examples/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hbase-hadoop-compat/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hbase-hadoop2-compat/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hbase-hadoop2-compat/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hbase-prefix-tree/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hbase-protocol/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hbase-rest/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hbase-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hbase-thrift/src/main/java" charset="UTF-8" />
+  </component>
+</project>

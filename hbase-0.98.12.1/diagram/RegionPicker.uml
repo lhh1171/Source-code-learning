@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.apache.hadoop.hbase.master.balancer.StochasticLoadBalancer.RegionPicker</OriginalElement>
+  <nodes>
+    <node x="204.0" y="0.0">org.apache.hadoop.hbase.master.balancer.StochasticLoadBalancer.RegionPicker</node>
+    <node x="0.0" y="80.0">org.apache.hadoop.hbase.master.balancer.StochasticLoadBalancer.RandomRegionPicker</node>
+    <node x="212.0" y="80.0">org.apache.hadoop.hbase.master.balancer.StochasticLoadBalancer.LoadPicker</node>
+    <node x="360.0" y="80.0">org.apache.hadoop.hbase.master.balancer.StochasticLoadBalancer.LocalityBasedPicker</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.apache.hadoop.hbase.master.balancer.StochasticLoadBalancer.LoadPicker" target="org.apache.hadoop.hbase.master.balancer.StochasticLoadBalancer.RegionPicker">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.hadoop.hbase.master.balancer.StochasticLoadBalancer.LocalityBasedPicker" target="org.apache.hadoop.hbase.master.balancer.StochasticLoadBalancer.RegionPicker">
+      <point x="0.0" y="-15.0" />
+      <point x="460.0" y="55.0" />
+      <point x="324.0" y="55.0" />
+      <point x="48.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.hadoop.hbase.master.balancer.StochasticLoadBalancer.RandomRegionPicker" target="org.apache.hadoop.hbase.master.balancer.StochasticLoadBalancer.RegionPicker">
+      <point x="0.0" y="-15.0" />
+      <point x="96.0" y="55.0" />
+      <point x="228.0" y="55.0" />
+      <point x="-48.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="72.0" y="15.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

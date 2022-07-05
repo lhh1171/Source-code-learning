@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.apache.hadoop.hbase.master.HMaster</OriginalElement>
+  <nodes>
+    <node x="628.0549689440995" y="240.0">java.lang.SuppressWarnings</node>
+    <node x="132.0" y="0.0">org.apache.hadoop.hbase.classification.InterfaceAudience.LimitedPrivate</node>
+    <node x="488.0549689440995" y="240.0">org.apache.hadoop.hbase.util.HasThread</node>
+    <node x="104.05062111801237" y="80.0">org.apache.hadoop.hbase.Abortable</node>
+    <node x="353.45000000000005" y="0.0">org.apache.hadoop.hbase.classification.InterfaceAudience.Private</node>
+    <node x="824.0549689440995" y="240.0">org.apache.hadoop.hbase.protobuf.generated.RegionServerStatusProtos.RegionServerStatusService.BlockingInterface</node>
+    <node x="263.0" y="80.0">org.apache.hadoop.hbase.Stoppable</node>
+    <node x="547.3049689440995" y="160.0">java.lang.Runnable</node>
+    <node x="503.3049689440995" y="80.0">java.lang.FunctionalInterface</node>
+    <node x="296.5549689440995" y="240.0">org.apache.hadoop.hbase.master.MasterServices</node>
+    <node x="1028.0549689440995" y="240.0">org.apache.hadoop.hbase.protobuf.generated.MasterProtos.MasterService.BlockingInterface</node>
+    <node x="223.75" y="160.0">org.apache.hadoop.hbase.Server</node>
+    <node x="496.0549689440995" y="330.0">org.apache.hadoop.hbase.master.HMaster</node>
+    <node x="0.0" y="0.0">org.apache.hadoop.hbase.classification.InterfaceStability.Evolving</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.apache.hadoop.hbase.master.HMaster" target="org.apache.hadoop.hbase.util.HasThread">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.hadoop.hbase.master.MasterServices" target="org.apache.hadoop.hbase.Server">
+      <point x="-40.0" y="-15.0" />
+      <point x="336.5549689440995" y="215.0" />
+      <point x="295.75" y="215.0" />
+      <point x="24.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.hadoop.hbase.master.HMaster" target="org.apache.hadoop.hbase.classification.InterfaceAudience.Private">
+      <point x="-14.85714285714289" y="-15.0" />
+      <point x="533.1978260869566" y="290.0" />
+      <point x="467.0549689440995" y="290.0" />
+      <point x="467.0549689440995" y="60.0" />
+      <point x="426.25000000000006" y="60.0" />
+      <point x="20.80000000000001" y="15.0" />
+    </edge>
+    <edge source="org.apache.hadoop.hbase.Stoppable" target="org.apache.hadoop.hbase.classification.InterfaceAudience.Private">
+      <point x="0.0" y="-15.0" />
+      <point x="323.0" y="60.0" />
+      <point x="384.65000000000003" y="60.0" />
+      <point x="-20.80000000000001" y="15.0" />
+    </edge>
+    <edge source="org.apache.hadoop.hbase.master.HMaster" target="org.apache.hadoop.hbase.protobuf.generated.RegionServerStatusProtos.RegionServerStatusService.BlockingInterface">
+      <point x="29.714285714285666" y="-15.0" />
+      <point x="577.7692546583852" y="300.0" />
+      <point x="916.0549689440995" y="300.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.hadoop.hbase.master.HMaster" target="java.lang.SuppressWarnings">
+      <point x="14.85714285714289" y="-15.0" />
+      <point x="562.9121118012424" y="290.0" />
+      <point x="716.0549689440995" y="290.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.hadoop.hbase.util.HasThread" target="java.lang.Runnable">
+      <point x="30.0" y="-15.0" />
+      <point x="578.0549689440995" y="215.0" />
+      <point x="603.3049689440995" y="215.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.hadoop.hbase.util.HasThread" target="org.apache.hadoop.hbase.classification.InterfaceAudience.Private">
+      <point x="-30.0" y="-15.0" />
+      <point x="518.0549689440995" y="215.0" />
+      <point x="492.8049689440995" y="215.0" />
+      <point x="492.8049689440995" y="50.0" />
+      <point x="447.05" y="50.0" />
+      <point x="41.599999999999966" y="15.0" />
+    </edge>
+    <edge source="org.apache.hadoop.hbase.Server" target="org.apache.hadoop.hbase.Abortable">
+      <point x="-32.0" y="-15.0" />
+      <point x="239.75" y="135.0" />
+      <point x="164.05062111801237" y="135.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.hadoop.hbase.Server" target="org.apache.hadoop.hbase.classification.InterfaceAudience.Private">
+      <point x="0.0" y="-15.0" />
+      <point x="271.75" y="135.0" />
+      <point x="252.5" y="135.0" />
+      <point x="252.5" y="50.0" />
+      <point x="363.85" y="50.0" />
+      <point x="-41.60000000000002" y="15.0" />
+    </edge>
+    <edge source="java.lang.Runnable" target="java.lang.FunctionalInterface">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.hadoop.hbase.master.MasterServices" target="org.apache.hadoop.hbase.classification.InterfaceAudience.Private">
+      <point x="40.0" y="-15.0" />
+      <point x="416.5549689440995" y="60.0" />
+      <point x="405.45000000000005" y="60.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.hadoop.hbase.Abortable" target="org.apache.hadoop.hbase.classification.InterfaceStability.Evolving">
+      <point x="-30.0" y="-15.0" />
+      <point x="134.05062111801237" y="60.0" />
+      <point x="56.0" y="60.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.hadoop.hbase.master.HMaster" target="org.apache.hadoop.hbase.Server">
+      <point x="-44.571428571428555" y="-15.0" />
+      <point x="503.483540372671" y="310.0" />
+      <point x="247.75" y="310.0" />
+      <point x="-24.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.hadoop.hbase.master.HMaster" target="org.apache.hadoop.hbase.master.MasterServices">
+      <point x="-29.714285714285666" y="-15.0" />
+      <point x="518.3406832298139" y="300.0" />
+      <point x="376.5549689440995" y="300.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.hadoop.hbase.master.HMaster" target="org.apache.hadoop.hbase.protobuf.generated.MasterProtos.MasterService.BlockingInterface">
+      <point x="44.571428571428555" y="-15.0" />
+      <point x="592.6263975155281" y="310.0" />
+      <point x="1120.0549689440995" y="310.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.hadoop.hbase.Abortable" target="org.apache.hadoop.hbase.classification.InterfaceAudience.LimitedPrivate">
+      <point x="30.0" y="-15.0" />
+      <point x="194.05062111801237" y="60.0" />
+      <point x="212.0" y="60.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.hadoop.hbase.Server" target="org.apache.hadoop.hbase.Stoppable">
+      <point x="32.0" y="-15.0" />
+      <point x="303.75" y="135.0" />
+      <point x="323.0" y="135.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.2985401459854016" x="643.8111298482293" y="268.80831928049463" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

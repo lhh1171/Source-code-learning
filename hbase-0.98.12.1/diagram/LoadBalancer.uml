@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.apache.hadoop.hbase.master.LoadBalancer</OriginalElement>
+  <nodes>
+    <node x="367.0" y="0.0">org.apache.hadoop.classification.InterfaceStability.Stable</node>
+    <node x="310.0" y="160.0">org.apache.hadoop.hbase.master.LoadBalancer</node>
+    <node x="0.0" y="320.0">org.apache.hadoop.hbase.master.balancer.TestBaseLoadBalancer.MockBalancer</node>
+    <node x="243.00000000000003" y="0.0">org.apache.hadoop.hbase.classification.InterfaceAudience.Private</node>
+    <node x="199.75000000000003" y="80.0">org.apache.hadoop.hbase.Stoppable</node>
+    <node x="70.0" y="400.0">org.apache.hadoop.hbase.TestZooKeeper.MockLoadBalancer</node>
+    <node x="478.0" y="400.0">org.apache.hadoop.hbase.master.TestAssignmentManagerOnCluster.MyLoadBalancer</node>
+    <node x="446.0" y="320.0">org.apache.hadoop.hbase.master.balancer.StochasticLoadBalancer</node>
+    <node x="483.0" y="0.0">org.apache.hadoop.classification.InterfaceAudience.Public</node>
+    <node x="690.0" y="320.0">org.apache.hadoop.hbase.master.balancer.FavoredNodeLoadBalancer</node>
+    <node x="294.0" y="240.0">org.apache.hadoop.hbase.master.balancer.BaseLoadBalancer</node>
+    <node x="164.00000000000003" y="320.0">org.apache.hadoop.hbase.master.balancer.SimpleLoadBalancer</node>
+    <node x="401.0" y="80.0">org.apache.hadoop.conf.Configurable</node>
+    <node x="266.0" y="400.0">org.apache.hadoop.hbase.master.TestAssignmentManager.MockedLoadBalancer</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.apache.hadoop.conf.Configurable" target="org.apache.hadoop.classification.InterfaceAudience.Public">
+      <point x="36.0" y="-15.0" />
+      <point x="509.0" y="55.0" />
+      <point x="531.0" y="55.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.hadoop.hbase.master.balancer.TestBaseLoadBalancer.MockBalancer" target="org.apache.hadoop.hbase.master.balancer.BaseLoadBalancer">
+      <point x="0.0" y="-15.0" />
+      <point x="72.0" y="290.0" />
+      <point x="316.0" y="290.0" />
+      <point x="-66.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.hadoop.hbase.master.LoadBalancer" target="org.apache.hadoop.hbase.classification.InterfaceAudience.Private">
+      <point x="0.0" y="-15.0" />
+      <point x="382.0" y="130.0" />
+      <point x="330.25" y="130.0" />
+      <point x="330.25" y="55.0" />
+      <point x="321.0" y="55.0" />
+      <point x="26.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.hadoop.hbase.Stoppable" target="org.apache.hadoop.hbase.classification.InterfaceAudience.Private">
+      <point x="0.0" y="-15.0" />
+      <point x="259.75" y="55.0" />
+      <point x="269.0" y="55.0" />
+      <point x="-26.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.hadoop.hbase.master.LoadBalancer" target="org.apache.hadoop.hbase.Stoppable">
+      <point x="-48.0" y="-15.0" />
+      <point x="334.0" y="140.0" />
+      <point x="259.75" y="140.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.hadoop.hbase.master.TestAssignmentManagerOnCluster.MyLoadBalancer" target="org.apache.hadoop.hbase.master.balancer.StochasticLoadBalancer">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.hadoop.conf.Configurable" target="org.apache.hadoop.classification.InterfaceStability.Stable">
+      <point x="-36.0" y="-15.0" />
+      <point x="437.0" y="55.0" />
+      <point x="415.0" y="55.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.hadoop.hbase.master.balancer.BaseLoadBalancer" target="org.apache.hadoop.hbase.master.LoadBalancer">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.hadoop.hbase.master.LoadBalancer" target="org.apache.hadoop.conf.Configurable">
+      <point x="48.0" y="-15.0" />
+      <point x="430.0" y="140.0" />
+      <point x="473.0" y="140.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.hadoop.hbase.master.balancer.FavoredNodeLoadBalancer" target="org.apache.hadoop.hbase.master.balancer.BaseLoadBalancer">
+      <point x="0.0" y="-15.0" />
+      <point x="806.0" y="290.0" />
+      <point x="448.0" y="290.0" />
+      <point x="66.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.hadoop.hbase.TestZooKeeper.MockLoadBalancer" target="org.apache.hadoop.hbase.master.balancer.SimpleLoadBalancer">
+      <point x="0.0" y="-15.0" />
+      <point x="158.0" y="375.0" />
+      <point x="212.00000000000003" y="375.0" />
+      <point x="-48.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.hadoop.hbase.master.balancer.SimpleLoadBalancer" target="org.apache.hadoop.hbase.master.balancer.BaseLoadBalancer">
+      <point x="0.0" y="-15.0" />
+      <point x="260.0" y="300.0" />
+      <point x="360.0" y="300.0" />
+      <point x="-22.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.hadoop.hbase.master.balancer.StochasticLoadBalancer" target="org.apache.hadoop.hbase.master.balancer.BaseLoadBalancer">
+      <point x="0.0" y="-15.0" />
+      <point x="558.0" y="300.0" />
+      <point x="404.0" y="300.0" />
+      <point x="22.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.hadoop.hbase.master.TestAssignmentManager.MockedLoadBalancer" target="org.apache.hadoop.hbase.master.balancer.SimpleLoadBalancer">
+      <point x="0.0" y="-15.0" />
+      <point x="362.0" y="375.0" />
+      <point x="308.0" y="375.0" />
+      <point x="48.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="203.0" y="215.0" />
+  <SelectedNodes>
+    <node>org.apache.hadoop.hbase.master.balancer.StochasticLoadBalancer</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

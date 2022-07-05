@@ -1,0 +1,18 @@
+一、模块分析
+HBase - Annotations         -------Copy of Hadoop's annotations for HBase (doclet,for test)
+hbase-assembly              -------Module that does project assembly and that is all that it does.(里面有很多xml)
+HBase - Checkstyle          -------Module to hold Checkstyle properties for HBase.(保存属性的模块，resource/xml)
+hbase-client                -------Client of HBase
+hbase-common                -------Common functionality for HBase
+hbase-examples              -------Examples of HBase usage
+hbase-hadoop-compat/1/2     -------Interfaces to be implemented in order to smooth over hadoop version differences
+hbase-it                    -------Integration and System tests for HBase
+hbase-prefix-tree           -------Prefix Tree Data Block Encoder
+hbase-protocol              -------Protobuf protocol classes used by HBase to communicate.
+hbase-rest                  -------This package provides a RESTful Web service front end for HBase.
+hbase-server                -------Main functionality for HBase
+hbase-shell                 -------Shell for HBase
+hbase-testing-util          -------HBase Testing Utilities.
+hbase-thrift                -------ThriftServer - 此类启动 Thrift 服务器，该服务器实现 HbaseClient.thrift IDL 文件中指定的 HBase API
+
+
