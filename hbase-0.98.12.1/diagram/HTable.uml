@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.apache.hadoop.hbase.client.HTable</OriginalElement>
+  <nodes>
+    <node x="0.0" y="80.0">org.apache.hadoop.hbase.classification.InterfaceStability.Stable</node>
+    <node x="92.0" y="160.0">org.apache.hadoop.hbase.client.HTableInterface</node>
+    <node x="128.0" y="240.0">org.apache.hadoop.hbase.client.HTable</node>
+    <node x="256.0" y="80.0">org.apache.hadoop.hbase.classification.InterfaceAudience.Public</node>
+    <node x="116.0" y="80.0">java.io.Closeable</node>
+    <node x="100.0" y="0.0">java.lang.AutoCloseable</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.apache.hadoop.hbase.client.HTable" target="org.apache.hadoop.hbase.classification.InterfaceStability.Stable">
+      <point x="-32.0" y="-15.0" />
+      <point x="144.0" y="215.0" />
+      <point x="24.0" y="215.0" />
+      <point x="-24.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.hadoop.hbase.client.HTableInterface" target="org.apache.hadoop.hbase.classification.InterfaceStability.Stable">
+      <point x="-56.0" y="-15.0" />
+      <point x="120.0" y="135.0" />
+      <point x="72.0" y="135.0" />
+      <point x="24.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.hadoop.hbase.client.HTable" target="org.apache.hadoop.hbase.client.HTableInterface">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.hadoop.hbase.client.HTable" target="org.apache.hadoop.hbase.classification.InterfaceAudience.Public">
+      <point x="32.0" y="-15.0" />
+      <point x="208.0" y="215.0" />
+      <point x="328.0" y="215.0" />
+      <point x="24.0" y="15.0" />
+    </edge>
+    <edge source="java.io.Closeable" target="java.lang.AutoCloseable">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.hadoop.hbase.client.HTableInterface" target="java.io.Closeable">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.hadoop.hbase.client.HTableInterface" target="org.apache.hadoop.hbase.classification.InterfaceAudience.Public">
+      <point x="56.0" y="-15.0" />
+      <point x="232.0" y="135.0" />
+      <point x="280.0" y="135.0" />
+      <point x="-24.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="176.0" y="135.0" />
+  <SelectedNodes>
+    <node>org.apache.hadoop.hbase.client.HTable</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

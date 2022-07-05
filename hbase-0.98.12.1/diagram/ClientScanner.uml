@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.apache.hadoop.hbase.client.ClientScanner</OriginalElement>
+  <nodes>
+    <node x="420.890625" y="80.0">org.apache.hadoop.hbase.classification.InterfaceStability.Stable</node>
+    <node x="502.5" y="270.0">org.apache.hadoop.hbase.rest.client.RemoteHTable.Scanner</node>
+    <node x="832.9036458333333" y="190.0">org.apache.hadoop.hbase.classification.InterfaceAudience.Private</node>
+    <node x="315.25" y="430.0">org.apache.hadoop.hbase.client.ClientSmallScanner</node>
+    <node x="534.390625" y="0.0">java.lang.AutoCloseable</node>
+    <node x="690.390625" y="80.0">java.lang.Iterable</node>
+    <node x="0.0" y="510.0">org.apache.hadoop.hbase.client.ClientSmallReversedScanner</node>
+    <node x="778.6848958333333" y="350.0">org.apache.hadoop.hbase.client.ClientSideRegionScanner</node>
+    <node x="546.96875" y="190.0">org.apache.hadoop.hbase.client.ResultScanner</node>
+    <node x="265.2630208333333" y="80.0">org.apache.hadoop.hbase.classification.InterfaceAudience.Public</node>
+    <node x="550.390625" y="80.0">java.io.Closeable</node>
+    <node x="626.5" y="270.0">org.apache.hadoop.hbase.client.AbstractClientScanner</node>
+    <node x="552.390625" y="350.0">org.apache.hadoop.hbase.client.TableSnapshotScanner</node>
+    <node x="351.46875" y="350.0">org.apache.hadoop.hbase.client.ClientScanner</node>
+    <node x="79.25" y="430.0">org.apache.hadoop.hbase.client.ReversedClientScanner</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.apache.hadoop.hbase.client.ClientSmallReversedScanner" target="org.apache.hadoop.hbase.client.ReversedClientScanner">
+      <point x="64.0" y="-15.0" />
+      <point x="192.0" y="485.0" />
+      <point x="187.25" y="485.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.hadoop.hbase.client.ClientSideRegionScanner" target="org.apache.hadoop.hbase.classification.InterfaceAudience.Private">
+      <point x="57.99999999999994" y="-15.0" />
+      <point x="952.6848958333333" y="245.0" />
+      <point x="910.9036458333333" y="245.0" />
+      <point x="26.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.hadoop.hbase.client.ClientSmallScanner" target="org.apache.hadoop.hbase.classification.InterfaceAudience.Public">
+      <point x="-48.0" y="-15.0" />
+      <point x="363.25" y="400.0" />
+      <point x="334.96875" y="400.0" />
+      <point x="334.96875" y="170.0" />
+      <point x="305.2630208333333" y="170.0" />
+      <point x="-8.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.hadoop.hbase.client.ResultScanner" target="java.io.Closeable">
+      <point x="19.0" y="-15.0" />
+      <point x="641.96875" y="170.0" />
+      <point x="610.390625" y="170.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.hadoop.hbase.client.ClientSmallReversedScanner" target="org.apache.hadoop.hbase.classification.InterfaceAudience.Public">
+      <point x="-64.0" y="-15.0" />
+      <point x="64.0" y="485.0" />
+      <point x="68.75" y="485.0" />
+      <point x="68.75" y="160.0" />
+      <point x="273.2630208333333" y="160.0" />
+      <point x="-40.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.hadoop.hbase.client.TableSnapshotScanner" target="org.apache.hadoop.hbase.classification.InterfaceAudience.Public">
+      <point x="-52.0" y="-15.0" />
+      <point x="604.390625" y="320.0" />
+      <point x="397.75" y="320.0" />
+      <point x="397.75" y="150.0" />
+      <point x="337.2630208333333" y="150.0" />
+      <point x="24.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.hadoop.hbase.client.ClientSmallScanner" target="org.apache.hadoop.hbase.client.ClientScanner">
+      <point x="48.0" y="-15.0" />
+      <point x="459.25" y="410.0" />
+      <point x="465.46875" y="410.0" />
+      <point x="38.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.hadoop.hbase.client.ClientScanner" target="org.apache.hadoop.hbase.client.AbstractClientScanner">
+      <point x="50.66666666666663" y="-15.0" />
+      <point x="478.13541666666663" y="330.0" />
+      <point x="662.5" y="330.0" />
+      <point x="-72.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.hadoop.hbase.client.AbstractClientScanner" target="org.apache.hadoop.hbase.classification.InterfaceAudience.Private">
+      <point x="54.0" y="-15.0" />
+      <point x="788.5" y="245.0" />
+      <point x="858.9036458333333" y="245.0" />
+      <point x="-26.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.hadoop.hbase.client.ClientScanner" target="org.apache.hadoop.hbase.classification.InterfaceAudience.Public">
+      <point x="-50.66666666666663" y="-15.0" />
+      <point x="376.80208333333337" y="330.0" />
+      <point x="345.96875" y="330.0" />
+      <point x="345.96875" y="160.0" />
+      <point x="321.2630208333333" y="160.0" />
+      <point x="8.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.hadoop.hbase.client.ReversedClientScanner" target="org.apache.hadoop.hbase.client.ClientScanner">
+      <point x="54.0" y="-15.0" />
+      <point x="241.25" y="410.0" />
+      <point x="389.46875" y="410.0" />
+      <point x="-38.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.hadoop.hbase.client.ClientSideRegionScanner" target="org.apache.hadoop.hbase.client.AbstractClientScanner">
+      <point x="-58.0" y="-15.0" />
+      <point x="836.6848958333333" y="330.0" />
+      <point x="806.5" y="330.0" />
+      <point x="72.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.hadoop.hbase.client.ResultScanner" target="org.apache.hadoop.hbase.classification.InterfaceAudience.Public">
+      <point x="-57.0" y="-15.0" />
+      <point x="565.96875" y="140.0" />
+      <point x="353.2630208333333" y="140.0" />
+      <point x="40.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.hadoop.hbase.rest.client.RemoteHTable.Scanner" target="org.apache.hadoop.hbase.client.ResultScanner">
+      <point x="0.0" y="-15.0" />
+      <point x="554.5" y="245.0" />
+      <point x="584.96875" y="245.0" />
+      <point x="-38.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.hadoop.hbase.client.TableSnapshotScanner" target="org.apache.hadoop.hbase.client.AbstractClientScanner">
+      <point x="52.0" y="-15.0" />
+      <point x="708.390625" y="330.0" />
+      <point x="734.5" y="330.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.hadoop.hbase.client.ClientScanner" target="org.apache.hadoop.hbase.classification.InterfaceStability.Stable">
+      <point x="0.0" y="-15.0" />
+      <point x="427.46875" y="330.0" />
+      <point x="444.890625" y="330.0" />
+      <point x="-24.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.hadoop.hbase.client.ResultScanner" target="java.lang.Iterable">
+      <point x="57.0" y="-15.0" />
+      <point x="679.96875" y="170.0" />
+      <point x="746.390625" y="170.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="java.io.Closeable" target="java.lang.AutoCloseable">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.hadoop.hbase.client.AbstractClientScanner" target="org.apache.hadoop.hbase.client.ResultScanner">
+      <point x="-54.0" y="-15.0" />
+      <point x="680.5" y="245.0" />
+      <point x="660.96875" y="245.0" />
+      <point x="38.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.hadoop.hbase.client.ReversedClientScanner" target="org.apache.hadoop.hbase.classification.InterfaceAudience.Public">
+      <point x="-54.0" y="-15.0" />
+      <point x="133.25" y="170.0" />
+      <point x="289.2630208333333" y="170.0" />
+      <point x="-24.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.hadoop.hbase.client.ResultScanner" target="org.apache.hadoop.hbase.classification.InterfaceStability.Stable">
+      <point x="-19.0" y="-15.0" />
+      <point x="603.96875" y="130.0" />
+      <point x="492.890625" y="130.0" />
+      <point x="24.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="252.5" y="175.0" />
+  <SelectedNodes>
+    <node>org.apache.hadoop.hbase.client.ClientSmallReversedScanner</node>
+    <node>org.apache.hadoop.hbase.client.ClientSideRegionScanner</node>
+    <node>org.apache.hadoop.hbase.rest.client.RemoteHTable.Scanner</node>
+    <node>org.apache.hadoop.hbase.client.TableSnapshotScanner</node>
+    <node>org.apache.hadoop.hbase.client.ClientSmallScanner</node>
+    <node>org.apache.hadoop.hbase.client.ReversedClientScanner</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.apache.hadoop.hbase.master.balancer.StochasticLoadBalancer.CostFunction</OriginalElement>
+  <nodes>
+    <node x="1064.0" y="80.0">org.apache.hadoop.hbase.master.balancer.StochasticLoadBalancer.RegionCountSkewCostFunction</node>
+    <node x="747.9999999999999" y="160.0">org.apache.hadoop.hbase.master.balancer.StochasticLoadBalancer.MemstoreSizeCostFunction</node>
+    <node x="495.99999999999994" y="160.0">org.apache.hadoop.hbase.master.balancer.StochasticLoadBalancer.ReadRequestCostFunction</node>
+    <node x="868.0" y="80.0">org.apache.hadoop.hbase.master.balancer.StochasticLoadBalancer.MoveCostFunction</node>
+    <node x="236.0" y="160.0">org.apache.hadoop.hbase.master.balancer.StochasticLoadBalancer.WriteRequestCostFunction</node>
+    <node x="884.0" y="0.0">org.apache.hadoop.hbase.master.balancer.StochasticLoadBalancer.CostFunction</node>
+    <node x="0.0" y="160.0">org.apache.hadoop.hbase.master.balancer.StochasticLoadBalancer.StoreFileCostFunction</node>
+    <node x="1348.0" y="80.0">org.apache.hadoop.hbase.master.balancer.StochasticLoadBalancer.LocalityCostFunction</node>
+    <node x="355.9999999999999" y="80.0">org.apache.hadoop.hbase.master.balancer.StochasticLoadBalancer.CostFromRegionLoadFunction</node>
+    <node x="632.0" y="80.0">org.apache.hadoop.hbase.master.balancer.StochasticLoadBalancer.TableSkewCostFunction</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.apache.hadoop.hbase.master.balancer.StochasticLoadBalancer.StoreFileCostFunction" target="org.apache.hadoop.hbase.master.balancer.StochasticLoadBalancer.CostFromRegionLoadFunction">
+      <point x="0.0" y="-15.0" />
+      <point x="108.0" y="130.0" />
+      <point x="387.9999999999999" y="130.0" />
+      <point x="-96.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.hadoop.hbase.master.balancer.StochasticLoadBalancer.MoveCostFunction" target="org.apache.hadoop.hbase.master.balancer.StochasticLoadBalancer.CostFunction">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.hadoop.hbase.master.balancer.StochasticLoadBalancer.ReadRequestCostFunction" target="org.apache.hadoop.hbase.master.balancer.StochasticLoadBalancer.CostFromRegionLoadFunction">
+      <point x="0.0" y="-15.0" />
+      <point x="612.0" y="140.0" />
+      <point x="516.0" y="140.0" />
+      <point x="32.00000000000006" y="15.0" />
+    </edge>
+    <edge source="org.apache.hadoop.hbase.master.balancer.StochasticLoadBalancer.RegionCountSkewCostFunction" target="org.apache.hadoop.hbase.master.balancer.StochasticLoadBalancer.CostFunction">
+      <point x="0.0" y="-15.0" />
+      <point x="1196.0" y="60.0" />
+      <point x="984.8" y="60.0" />
+      <point x="28.799999999999955" y="15.0" />
+    </edge>
+    <edge source="org.apache.hadoop.hbase.master.balancer.StochasticLoadBalancer.WriteRequestCostFunction" target="org.apache.hadoop.hbase.master.balancer.StochasticLoadBalancer.CostFromRegionLoadFunction">
+      <point x="0.0" y="-15.0" />
+      <point x="356.0" y="140.0" />
+      <point x="451.9999999999999" y="140.0" />
+      <point x="-32.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.hadoop.hbase.master.balancer.StochasticLoadBalancer.MemstoreSizeCostFunction" target="org.apache.hadoop.hbase.master.balancer.StochasticLoadBalancer.CostFromRegionLoadFunction">
+      <point x="0.0" y="-15.0" />
+      <point x="867.9999999999999" y="130.0" />
+      <point x="580.0" y="130.0" />
+      <point x="96.00000000000006" y="15.0" />
+    </edge>
+    <edge source="org.apache.hadoop.hbase.master.balancer.StochasticLoadBalancer.CostFromRegionLoadFunction" target="org.apache.hadoop.hbase.master.balancer.StochasticLoadBalancer.CostFunction">
+      <point x="5.6843418860808015E-14" y="-15.0" />
+      <point x="483.99999999999994" y="50.0" />
+      <point x="898.3999999999999" y="50.0" />
+      <point x="-57.60000000000002" y="15.0" />
+    </edge>
+    <edge source="org.apache.hadoop.hbase.master.balancer.StochasticLoadBalancer.LocalityCostFunction" target="org.apache.hadoop.hbase.master.balancer.StochasticLoadBalancer.CostFunction">
+      <point x="0.0" y="-15.0" />
+      <point x="1452.0" y="50.0" />
+      <point x="1013.5999999999999" y="50.0" />
+      <point x="57.59999999999991" y="15.0" />
+    </edge>
+    <edge source="org.apache.hadoop.hbase.master.balancer.StochasticLoadBalancer.TableSkewCostFunction" target="org.apache.hadoop.hbase.master.balancer.StochasticLoadBalancer.CostFunction">
+      <point x="0.0" y="-15.0" />
+      <point x="740.0" y="60.0" />
+      <point x="927.2" y="60.0" />
+      <point x="-28.799999999999955" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0404551201011376" x="804.8517066363586" y="238.76441354716945" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

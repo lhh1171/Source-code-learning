@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.apache.hadoop.hbase.client.ScannerCallable</OriginalElement>
+  <nodes>
+    <node x="0.0" y="0.0">java.lang.FunctionalInterface</node>
+    <node x="164.9537037037037" y="320.0">org.apache.hadoop.hbase.client.ScannerCallable</node>
+    <node x="89.24999999999999" y="240.0">org.apache.hadoop.hbase.client.RegionServerCallable</node>
+    <node x="56.0" y="160.0">org.apache.hadoop.hbase.client.RetryingCallable</node>
+    <node x="190.97222222222223" y="80.0">org.apache.hadoop.hbase.classification.InterfaceAudience.Private</node>
+    <node x="44.0" y="80.0">java.util.concurrent.Callable</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.apache.hadoop.hbase.client.ScannerCallable" target="org.apache.hadoop.hbase.classification.InterfaceAudience.Private">
+      <point x="42.0" y="-15.0" />
+      <point x="290.9537037037037" y="295.0" />
+      <point x="307.75" y="295.0" />
+      <point x="307.75" y="135.0" />
+      <point x="277.6388888888889" y="135.0" />
+      <point x="34.666666666666686" y="15.0" />
+    </edge>
+    <edge source="org.apache.hadoop.hbase.client.ScannerCallable" target="org.apache.hadoop.hbase.client.RegionServerCallable">
+      <point x="-42.0" y="-15.0" />
+      <point x="206.9537037037037" y="295.0" />
+      <point x="193.25" y="295.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.hadoop.hbase.client.RetryingCallable" target="java.util.concurrent.Callable">
+      <point x="-44.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.hadoop.hbase.client.RegionServerCallable" target="org.apache.hadoop.hbase.classification.InterfaceAudience.Private">
+      <point x="52.0" y="-15.0" />
+      <point x="245.25" y="215.0" />
+      <point x="242.5" y="215.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="java.util.concurrent.Callable" target="java.lang.FunctionalInterface">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.hadoop.hbase.client.RegionServerCallable" target="org.apache.hadoop.hbase.client.RetryingCallable">
+      <point x="-52.0" y="-15.0" />
+      <point x="141.25" y="215.0" />
+      <point x="144.0" y="215.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.hadoop.hbase.client.RetryingCallable" target="org.apache.hadoop.hbase.classification.InterfaceAudience.Private">
+      <point x="44.0" y="-15.0" />
+      <point x="188.0" y="135.0" />
+      <point x="208.30555555555554" y="135.0" />
+      <point x="-34.66666666666666" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="166.5" y="175.0" />
+  <SelectedNodes>
+    <node>org.apache.hadoop.hbase.client.ScannerCallable</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
