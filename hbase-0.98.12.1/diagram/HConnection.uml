@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.apache.hadoop.hbase.client.HConnection</OriginalElement>
+  <nodes>
+    <node x="1280.0" y="330.0">org.apache.hadoop.hbase.client.TestClientNoCluster.RpcTimeoutConnection</node>
+    <node x="844.0" y="330.0">org.apache.hadoop.hbase.client.TestClientNoCluster.ScanOpenNextThenExceptionThenRecoverConnection</node>
+    <node x="465.8888888888888" y="160.0">org.apache.hadoop.hbase.client.HConnection</node>
+    <node x="0.0" y="330.0">org.apache.hadoop.hbase.client.CoprocessorHConnection</node>
+    <node x="536.1666666666666" y="0.0">org.apache.hadoop.hbase.classification.InterfaceAudience.LimitedPrivate</node>
+    <node x="526.1666666666666" y="80.0">org.apache.hadoop.hbase.Abortable</node>
+    <node x="798.0" y="0.0">java.lang.AutoCloseable</node>
+    <node x="718.0" y="240.0">org.apache.hadoop.hbase.client.HConnectionManager.HConnectionImplementation</node>
+    <node x="391.8888888888888" y="240.0">org.apache.hadoop.hbase.client.StatisticsHConnection</node>
+    <node x="240.0" y="410.0">org.apache.hadoop.hbase.client.TestAsyncProcess.MyConnectionImpl2</node>
+    <node x="355.1388888888888" y="80.0">org.apache.hadoop.hbase.classification.InterfaceAudience.Public</node>
+    <node x="440.0" y="330.0">org.apache.hadoop.hbase.client.TestClientNoCluster.RegionServerStoppedOnScannerOpenConnection</node>
+    <node x="814.0" y="80.0">java.io.Closeable</node>
+    <node x="1508.0" y="330.0">org.apache.hadoop.hbase.client.TestClientNoCluster.ManyServersManyRegionsConnection</node>
+    <node x="244.0" y="330.0">org.apache.hadoop.hbase.client.TestAsyncProcess.MyConnectionImpl</node>
+    <node x="404.16666666666663" y="0.0">org.apache.hadoop.hbase.classification.InterfaceStability.Evolving</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.apache.hadoop.hbase.client.HConnectionManager.HConnectionImplementation" target="org.apache.hadoop.hbase.client.HConnection">
+      <point x="-62.0" y="-15.0" />
+      <point x="780.0" y="215.0" />
+      <point x="567.8888888888888" y="215.0" />
+      <point x="34.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.hadoop.hbase.client.HConnectionManager.HConnectionImplementation" target="java.io.Closeable">
+      <point x="61.99999999999997" y="-15.0" />
+      <point x="30.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.hadoop.hbase.client.HConnection" target="org.apache.hadoop.hbase.classification.InterfaceAudience.Public">
+      <point x="-51.0" y="-15.0" />
+      <point x="482.8888888888888" y="140.0" />
+      <point x="403.1388888888888" y="140.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.hadoop.hbase.client.TestClientNoCluster.ManyServersManyRegionsConnection" target="org.apache.hadoop.hbase.client.HConnectionManager.HConnectionImplementation">
+      <point x="0.0" y="-15.0" />
+      <point x="1660.0" y="290.0" />
+      <point x="945.3333333333333" y="290.0" />
+      <point x="103.33333333333326" y="15.0" />
+    </edge>
+    <edge source="org.apache.hadoop.hbase.client.HConnection" target="org.apache.hadoop.hbase.classification.InterfaceStability.Evolving">
+      <point x="-17.0" y="-15.0" />
+      <point x="516.8888888888888" y="130.0" />
+      <point x="470.8888888888888" y="130.0" />
+      <point x="470.8888888888888" y="55.0" />
+      <point x="460.16666666666663" y="55.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.hadoop.hbase.client.CoprocessorHConnection" target="org.apache.hadoop.hbase.client.HConnectionManager.HConnectionImplementation">
+      <point x="56.0" y="-15.0" />
+      <point x="168.0" y="290.0" />
+      <point x="738.6666666666666" y="290.0" />
+      <point x="-103.33333333333337" y="15.0" />
+    </edge>
+    <edge source="org.apache.hadoop.hbase.client.HConnection" target="java.io.Closeable">
+      <point x="51.0" y="-15.0" />
+      <point x="584.8888888888888" y="140.0" />
+      <point x="844.0" y="140.0" />
+      <point x="-30.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.hadoop.hbase.client.TestClientNoCluster.RpcTimeoutConnection" target="org.apache.hadoop.hbase.client.HConnectionManager.HConnectionImplementation">
+      <point x="0.0" y="-15.0" />
+      <point x="1384.0" y="300.0" />
+      <point x="904.0" y="300.0" />
+      <point x="62.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.hadoop.hbase.Abortable" target="org.apache.hadoop.hbase.classification.InterfaceStability.Evolving">
+      <point x="-30.0" y="-15.0" />
+      <point x="556.1666666666666" y="55.0" />
+      <point x="497.5" y="55.0" />
+      <point x="37.333333333333314" y="15.0" />
+    </edge>
+    <edge source="org.apache.hadoop.hbase.client.TestClientNoCluster.RegionServerStoppedOnScannerOpenConnection" target="org.apache.hadoop.hbase.client.HConnectionManager.HConnectionImplementation">
+      <point x="0.0" y="-15.0" />
+      <point x="632.0" y="310.0" />
+      <point x="821.3333333333333" y="310.0" />
+      <point x="-20.666666666666742" y="15.0" />
+    </edge>
+    <edge source="org.apache.hadoop.hbase.client.CoprocessorHConnection" target="org.apache.hadoop.hbase.classification.InterfaceStability.Evolving">
+      <point x="-56.0" y="-15.0" />
+      <point x="56.0" y="55.0" />
+      <point x="422.83333333333337" y="55.0" />
+      <point x="-37.333333333333314" y="15.0" />
+    </edge>
+    <edge source="java.io.Closeable" target="java.lang.AutoCloseable">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.hadoop.hbase.client.TestClientNoCluster.ScanOpenNextThenExceptionThenRecoverConnection" target="org.apache.hadoop.hbase.client.HConnectionManager.HConnectionImplementation">
+      <point x="0.0" y="-15.0" />
+      <point x="1052.0" y="310.0" />
+      <point x="862.6666666666667" y="310.0" />
+      <point x="20.666666666666742" y="15.0" />
+    </edge>
+    <edge source="org.apache.hadoop.hbase.client.StatisticsHConnection" target="org.apache.hadoop.hbase.client.HConnection">
+      <point x="0.0" y="-15.0" />
+      <point x="-34.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.hadoop.hbase.Abortable" target="org.apache.hadoop.hbase.classification.InterfaceAudience.LimitedPrivate">
+      <point x="30.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.hadoop.hbase.client.TestAsyncProcess.MyConnectionImpl" target="org.apache.hadoop.hbase.client.HConnectionManager.HConnectionImplementation">
+      <point x="0.0" y="-15.0" />
+      <point x="332.0" y="300.0" />
+      <point x="780.0" y="300.0" />
+      <point x="-62.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.hadoop.hbase.client.TestAsyncProcess.MyConnectionImpl2" target="org.apache.hadoop.hbase.client.TestAsyncProcess.MyConnectionImpl">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.hadoop.hbase.client.HConnection" target="org.apache.hadoop.hbase.Abortable">
+      <point x="17.0" y="-15.0" />
+      <point x="550.8888888888888" y="130.0" />
+      <point x="586.1666666666666" y="130.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="265.0" y="219.0" />
+  <SelectedNodes>
+    <node>org.apache.hadoop.hbase.client.TestClientNoCluster.RpcTimeoutConnection</node>
+    <node>org.apache.hadoop.hbase.client.TestClientNoCluster.ScanOpenNextThenExceptionThenRecoverConnection</node>
+    <node>org.apache.hadoop.hbase.client.StatisticsHConnection</node>
+    <node>org.apache.hadoop.hbase.client.TestAsyncProcess.MyConnectionImpl2</node>
+    <node>org.apache.hadoop.hbase.client.CoprocessorHConnection</node>
+    <node>org.apache.hadoop.hbase.client.TestClientNoCluster.RegionServerStoppedOnScannerOpenConnection</node>
+    <node>org.apache.hadoop.hbase.client.TestClientNoCluster.ManyServersManyRegionsConnection</node>
+    <node>org.apache.hadoop.hbase.client.TestAsyncProcess.MyConnectionImpl</node>
+    <node>org.apache.hadoop.hbase.client.HConnectionManager.HConnectionImplementation</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

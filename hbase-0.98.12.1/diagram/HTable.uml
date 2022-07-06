@@ -24,21 +24,17 @@
       <point x="72.0" y="135.0" />
       <point x="24.0" y="15.0" />
     </edge>
-    <edge source="org.apache.hadoop.hbase.client.HTable" target="org.apache.hadoop.hbase.client.HTableInterface">
-      <point x="0.0" y="-15.0" />
-      <point x="0.0" y="15.0" />
-    </edge>
     <edge source="org.apache.hadoop.hbase.client.HTable" target="org.apache.hadoop.hbase.classification.InterfaceAudience.Public">
       <point x="32.0" y="-15.0" />
       <point x="208.0" y="215.0" />
       <point x="328.0" y="215.0" />
       <point x="24.0" y="15.0" />
     </edge>
-    <edge source="java.io.Closeable" target="java.lang.AutoCloseable">
+    <edge source="org.apache.hadoop.hbase.client.HTable" target="org.apache.hadoop.hbase.client.HTableInterface">
       <point x="0.0" y="-15.0" />
       <point x="0.0" y="15.0" />
     </edge>
-    <edge source="org.apache.hadoop.hbase.client.HTableInterface" target="java.io.Closeable">
+    <edge source="java.io.Closeable" target="java.lang.AutoCloseable">
       <point x="0.0" y="-15.0" />
       <point x="0.0" y="15.0" />
     </edge>
@@ -47,6 +43,10 @@
       <point x="232.0" y="135.0" />
       <point x="280.0" y="135.0" />
       <point x="-24.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.hadoop.hbase.client.HTableInterface" target="java.io.Closeable">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
     </edge>
   </edges>
   <settings layout="Hierarchic Group" zoom="1.0" x="176.0" y="135.0" />
