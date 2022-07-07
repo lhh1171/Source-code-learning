@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.apache.hadoop.hbase.io.CellOutputStream</OriginalElement>
+  <nodes>
+    <node x="764.0" y="330.0">org.apache.hadoop.hbase.codec.MessageCodec.MessageEncoder</node>
+    <node x="0.0" y="410.0">org.apache.hadoop.hbase.regionserver.wal.SecureWALCellCodec.EncryptedKvEncoder</node>
+    <node x="544.0" y="330.0">org.apache.hadoop.hbase.regionserver.wal.WALCellCodec.CompressedKvEncoder</node>
+    <node x="944.0" y="330.0">org.apache.hadoop.hbase.codec.CellCodecWithTags.CellEncoder</node>
+    <node x="387.99999999999994" y="330.0">org.apache.hadoop.hbase.codec.CellCodec.CellEncoder</node>
+    <node x="668.75" y="0.0">org.apache.hadoop.hbase.classification.InterfaceAudience.Private</node>
+    <node x="576.0" y="240.0">org.apache.hadoop.hbase.codec.BaseEncoder</node>
+    <node x="458.74999999999994" y="160.0">org.apache.hadoop.hbase.codec.Codec.Encoder</node>
+    <node x="1100.0" y="330.0">org.apache.hadoop.hbase.regionserver.wal.WALCellCodec.EnsureKvEncoder</node>
+    <node x="582.75" y="160.0">org.apache.hadoop.hbase.codec.prefixtree.encode.PrefixTreeEncoder</node>
+    <node x="12.0" y="330.0">org.apache.hadoop.hbase.codec.KeyValueCodec.KeyValueEncoder</node>
+    <node x="199.99999999999994" y="330.0">org.apache.hadoop.hbase.codec.KeyValueCodecWithTags.KeyValueEncoder</node>
+    <node x="466.74999999999994" y="80.0">org.apache.hadoop.hbase.io.CellOutputStream</node>
+    <node x="454.74999999999994" y="0.0">org.apache.hadoop.hbase.classification.InterfaceStability.Evolving</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.apache.hadoop.hbase.codec.Codec.Encoder" target="org.apache.hadoop.hbase.io.CellOutputStream">
+      <point x="0.0" y="-15.0" />
+      <point x="-44.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.hadoop.hbase.codec.BaseEncoder" target="org.apache.hadoop.hbase.codec.Codec.Encoder">
+      <point x="-34.0" y="-15.0" />
+      <point x="610.0" y="215.0" />
+      <point x="510.74999999999994" y="215.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.hadoop.hbase.regionserver.wal.WALCellCodec.EnsureKvEncoder" target="org.apache.hadoop.hbase.codec.BaseEncoder">
+      <point x="0.0" y="-15.0" />
+      <point x="1184.0" y="290.0" />
+      <point x="702.2857142857142" y="290.0" />
+      <point x="58.285714285714334" y="15.0" />
+    </edge>
+    <edge source="org.apache.hadoop.hbase.regionserver.wal.WALCellCodec.CompressedKvEncoder" target="org.apache.hadoop.hbase.codec.BaseEncoder">
+      <point x="-5.6843418860808015E-14" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.hadoop.hbase.codec.KeyValueCodec.KeyValueEncoder" target="org.apache.hadoop.hbase.codec.BaseEncoder">
+      <point x="0.0" y="-15.0" />
+      <point x="96.0" y="290.0" />
+      <point x="585.7142857142858" y="290.0" />
+      <point x="-58.28571428571422" y="15.0" />
+    </edge>
+    <edge source="org.apache.hadoop.hbase.codec.BaseEncoder" target="org.apache.hadoop.hbase.classification.InterfaceAudience.Private">
+      <point x="34.0" y="-15.0" />
+      <point x="678.0" y="215.0" />
+      <point x="777.2499999999999" y="215.0" />
+      <point x="777.2499999999999" y="55.0" />
+      <point x="755.4166666666665" y="55.0" />
+      <point x="34.66666666666663" y="15.0" />
+    </edge>
+    <edge source="org.apache.hadoop.hbase.io.CellOutputStream" target="org.apache.hadoop.hbase.classification.InterfaceAudience.Private">
+      <point x="44.0" y="-15.0" />
+      <point x="598.75" y="55.0" />
+      <point x="686.0833333333333" y="55.0" />
+      <point x="-34.66666666666663" y="15.0" />
+    </edge>
+    <edge source="org.apache.hadoop.hbase.codec.MessageCodec.MessageEncoder" target="org.apache.hadoop.hbase.codec.BaseEncoder">
+      <point x="0.0" y="-15.0" />
+      <point x="844.0" y="310.0" />
+      <point x="663.4285714285713" y="310.0" />
+      <point x="19.428571428571445" y="15.0" />
+    </edge>
+    <edge source="org.apache.hadoop.hbase.codec.prefixtree.encode.PrefixTreeEncoder" target="org.apache.hadoop.hbase.io.CellOutputStream">
+      <point x="-46.0" y="-15.0" />
+      <point x="628.75" y="135.0" />
+      <point x="598.75" y="135.0" />
+      <point x="44.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.hadoop.hbase.codec.CellCodecWithTags.CellEncoder" target="org.apache.hadoop.hbase.codec.BaseEncoder">
+      <point x="0.0" y="-15.0" />
+      <point x="1012.0" y="300.0" />
+      <point x="682.8571428571429" y="300.0" />
+      <point x="38.85714285714289" y="15.0" />
+    </edge>
+    <edge source="org.apache.hadoop.hbase.regionserver.wal.SecureWALCellCodec.EncryptedKvEncoder" target="org.apache.hadoop.hbase.codec.KeyValueCodec.KeyValueEncoder">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.hadoop.hbase.codec.KeyValueCodecWithTags.KeyValueEncoder" target="org.apache.hadoop.hbase.codec.BaseEncoder">
+      <point x="0.0" y="-15.0" />
+      <point x="283.99999999999994" y="300.0" />
+      <point x="605.1428571428571" y="300.0" />
+      <point x="-38.85714285714289" y="15.0" />
+    </edge>
+    <edge source="org.apache.hadoop.hbase.io.CellOutputStream" target="org.apache.hadoop.hbase.classification.InterfaceStability.Evolving">
+      <point x="-44.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.hadoop.hbase.codec.CellCodec.CellEncoder" target="org.apache.hadoop.hbase.codec.BaseEncoder">
+      <point x="0.0" y="-15.0" />
+      <point x="455.99999999999994" y="310.0" />
+      <point x="624.5714285714284" y="310.0" />
+      <point x="-19.428571428571445" y="15.0" />
+    </edge>
+    <edge source="org.apache.hadoop.hbase.codec.prefixtree.encode.PrefixTreeEncoder" target="org.apache.hadoop.hbase.classification.InterfaceAudience.Private">
+      <point x="46.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="634.0" y="220.0" />
+  <SelectedNodes>
+    <node>org.apache.hadoop.hbase.codec.CellCodecWithTags.CellEncoder</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
