@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.apache.hadoop.hbase.io.encoding.EncodedDataBlock</OriginalElement>
+  <nodes>
+    <node x="36.0" y="0.0">org.apache.hadoop.hbase.classification.InterfaceAudience.Private</node>
+    <node x="0.0" y="80.0">org.apache.hadoop.hbase.io.encoding.EncodedDataBlock</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.apache.hadoop.hbase.io.encoding.EncodedDataBlock" target="org.apache.hadoop.hbase.classification.InterfaceAudience.Private">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="88.0" y="55.0" />
+  <SelectedNodes>
+    <node>org.apache.hadoop.hbase.io.encoding.EncodedDataBlock</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.apache.hadoop.hbase.io.hfile.AbstractHFileReader</OriginalElement>
+  <nodes>
+    <node x="0.0" y="80.0">org.apache.hadoop.classification.InterfaceAudience.Public</node>
+    <node x="115.99999999999994" y="80.0">org.apache.hadoop.classification.InterfaceStability.Stable</node>
+    <node x="231.99999999999994" y="80.0">java.io.Closeable</node>
+    <node x="359.24999999999994" y="320.0">org.apache.hadoop.hbase.io.hfile.HFileReaderV2</node>
+    <node x="464.1726190476189" y="160.0">org.apache.hadoop.hbase.classification.InterfaceAudience.Private</node>
+    <node x="278.45833333333326" y="240.0">org.apache.hadoop.hbase.io.hfile.AbstractHFileReader</node>
+    <node x="402.49999999999994" y="400.0">org.apache.hadoop.hbase.io.hfile.HFileReaderV3</node>
+    <node x="34.0" y="160.0">org.apache.hadoop.conf.Configurable</node>
+    <node x="371.99999999999994" y="80.0">org.apache.hadoop.hbase.io.hfile.HFile.CachingBlockReader</node>
+    <node x="215.99999999999994" y="0.0">java.lang.AutoCloseable</node>
+    <node x="348.1726190476189" y="160.0">org.apache.hadoop.hbase.io.hfile.HFile.Reader</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.apache.hadoop.conf.Configurable" target="org.apache.hadoop.classification.InterfaceAudience.Public">
+      <point x="-36.0" y="-15.0" />
+      <point x="70.0" y="135.0" />
+      <point x="48.0" y="135.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.hadoop.hbase.io.hfile.HFile.Reader" target="java.io.Closeable">
+      <point x="-24.0" y="-15.0" />
+      <point x="372.1726190476189" y="135.0" />
+      <point x="291.99999999999994" y="135.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.hadoop.hbase.io.hfile.AbstractHFileReader" target="org.apache.hadoop.hbase.classification.InterfaceAudience.Private">
+      <point x="66.66666666666663" y="-15.0" />
+      <point x="445.1249999999999" y="215.0" />
+      <point x="481.5059523809523" y="215.0" />
+      <point x="-34.66666666666663" y="15.0" />
+    </edge>
+    <edge source="org.apache.hadoop.conf.Configurable" target="org.apache.hadoop.classification.InterfaceStability.Stable">
+      <point x="36.0" y="-15.0" />
+      <point x="142.0" y="135.0" />
+      <point x="163.99999999999994" y="135.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.hadoop.hbase.io.hfile.HFileReaderV2" target="org.apache.hadoop.hbase.classification.InterfaceAudience.Private">
+      <point x="38.0" y="-15.0" />
+      <point x="473.24999999999994" y="295.0" />
+      <point x="512.9642857142857" y="295.0" />
+      <point x="512.9642857142857" y="215.0" />
+      <point x="516.1726190476189" y="215.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.hadoop.hbase.io.hfile.HFileReaderV3" target="org.apache.hadoop.hbase.classification.InterfaceAudience.Private">
+      <point x="37.999999999999986" y="-15.0" />
+      <point x="516.5" y="375.0" />
+      <point x="542.7142857142857" y="375.0" />
+      <point x="542.7142857142857" y="215.0" />
+      <point x="550.8392857142856" y="215.0" />
+      <point x="34.66666666666663" y="15.0" />
+    </edge>
+    <edge source="org.apache.hadoop.hbase.io.hfile.AbstractHFileReader" target="org.apache.hadoop.conf.Configurable">
+      <point x="-66.66666666666669" y="-15.0" />
+      <point x="311.7916666666666" y="215.0" />
+      <point x="106.0" y="215.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.hadoop.hbase.io.hfile.HFileReaderV3" target="org.apache.hadoop.hbase.io.hfile.HFileReaderV2">
+      <point x="-38.0" y="-15.0" />
+      <point x="440.49999999999994" y="375.0" />
+      <point x="435.24999999999994" y="375.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.hadoop.hbase.io.hfile.HFileReaderV2" target="org.apache.hadoop.hbase.io.hfile.AbstractHFileReader">
+      <point x="-38.0" y="-15.0" />
+      <point x="397.24999999999994" y="295.0" />
+      <point x="378.45833333333326" y="295.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="java.io.Closeable" target="java.lang.AutoCloseable">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.hadoop.hbase.io.hfile.AbstractHFileReader" target="org.apache.hadoop.hbase.io.hfile.HFile.Reader">
+      <point x="0.0" y="-15.0" />
+      <point x="378.45833333333326" y="215.0" />
+      <point x="396.1726190476189" y="215.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.hadoop.hbase.io.hfile.HFile.Reader" target="org.apache.hadoop.hbase.io.hfile.HFile.CachingBlockReader">
+      <point x="24.0" y="-15.0" />
+      <point x="420.1726190476189" y="135.0" />
+      <point x="467.99999999999994" y="135.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="282.0" y="213.5" />
+  <SelectedNodes>
+    <node>org.apache.hadoop.hbase.io.hfile.HFileReaderV2</node>
+    <node>org.apache.hadoop.hbase.io.hfile.HFileReaderV3</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

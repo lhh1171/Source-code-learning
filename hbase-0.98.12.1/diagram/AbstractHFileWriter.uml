@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.apache.hadoop.hbase.io.hfile.AbstractHFileWriter</OriginalElement>
+  <nodes>
+    <node x="16.0" y="80.0">java.io.Closeable</node>
+    <node x="190.725" y="160.0">org.apache.hadoop.hbase.classification.InterfaceAudience.Private</node>
+    <node x="104.55833333333332" y="320.0">org.apache.hadoop.hbase.io.hfile.HFileWriterV2</node>
+    <node x="147.80833333333334" y="400.0">org.apache.hadoop.hbase.io.hfile.HFileWriterV3</node>
+    <node x="28.0" y="160.0">org.apache.hadoop.hbase.io.hfile.HFile.Writer</node>
+    <node x="26.0" y="240.0">org.apache.hadoop.hbase.io.hfile.AbstractHFileWriter</node>
+    <node x="0.0" y="0.0">java.lang.AutoCloseable</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.apache.hadoop.hbase.io.hfile.AbstractHFileWriter" target="org.apache.hadoop.hbase.classification.InterfaceAudience.Private">
+      <point x="50.0" y="-15.0" />
+      <point x="176.0" y="215.0" />
+      <point x="208.05833333333334" y="215.0" />
+      <point x="-34.66666666666666" y="15.0" />
+    </edge>
+    <edge source="org.apache.hadoop.hbase.io.hfile.HFileWriterV2" target="org.apache.hadoop.hbase.io.hfile.AbstractHFileWriter">
+      <point x="-38.0" y="-15.0" />
+      <point x="142.55833333333334" y="295.0" />
+      <point x="126.0" y="295.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.hadoop.hbase.io.hfile.HFileWriterV3" target="org.apache.hadoop.hbase.io.hfile.HFileWriterV2">
+      <point x="-38.0" y="-15.0" />
+      <point x="185.80833333333334" y="375.0" />
+      <point x="180.55833333333334" y="375.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.hadoop.hbase.io.hfile.AbstractHFileWriter" target="org.apache.hadoop.hbase.io.hfile.HFile.Writer">
+      <point x="-50.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="java.io.Closeable" target="java.lang.AutoCloseable">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.hadoop.hbase.io.hfile.HFileWriterV3" target="org.apache.hadoop.hbase.classification.InterfaceAudience.Private">
+      <point x="38.0" y="-15.0" />
+      <point x="261.80833333333334" y="375.0" />
+      <point x="267.05833333333334" y="375.0" />
+      <point x="267.05833333333334" y="215.0" />
+      <point x="277.39166666666665" y="215.0" />
+      <point x="34.66666666666666" y="15.0" />
+    </edge>
+    <edge source="org.apache.hadoop.hbase.io.hfile.HFileWriterV2" target="org.apache.hadoop.hbase.classification.InterfaceAudience.Private">
+      <point x="38.0" y="-15.0" />
+      <point x="218.55833333333334" y="295.0" />
+      <point x="236.5" y="295.0" />
+      <point x="236.5" y="215.0" />
+      <point x="242.725" y="215.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.hadoop.hbase.io.hfile.HFile.Writer" target="java.io.Closeable">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="150.0" y="215.0" />
+  <SelectedNodes>
+    <node>org.apache.hadoop.hbase.io.hfile.AbstractHFileWriter</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

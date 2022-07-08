@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.apache.hadoop.hbase.master.snapshot.SnapshotManager</OriginalElement>
+  <nodes>
+    <node x="452.76515151515144" y="160.0">org.apache.hadoop.hbase.classification.InterfaceStability.Unstable</node>
+    <node x="155.26515151515147" y="80.0">org.apache.hadoop.hbase.procedure.ProcedureManager</node>
+    <node x="179.99999999999997" y="160.0">org.apache.hadoop.hbase.procedure.MasterProcedureManager</node>
+    <node x="272.24999999999994" y="240.0">org.apache.hadoop.hbase.master.snapshot.SnapshotManager</node>
+    <node x="0.0" y="160.0">org.apache.hadoop.hbase.classification.InterfaceAudience.LimitedPrivate</node>
+    <node x="297.25" y="0.0">org.apache.hadoop.hbase.classification.InterfaceAudience.Private</node>
+    <node x="352.2651515151515" y="80.0">org.apache.hadoop.hbase.Stoppable</node>
+    <node x="116.01515151515147" y="0.0">org.apache.hadoop.hbase.classification.InterfaceStability.Evolving</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.apache.hadoop.hbase.procedure.MasterProcedureManager" target="org.apache.hadoop.hbase.classification.InterfaceStability.Evolving">
+      <point x="-84.00000000000003" y="-15.0" />
+      <point x="207.99999999999994" y="135.0" />
+      <point x="144.76515151515144" y="135.0" />
+      <point x="-28.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.hadoop.hbase.procedure.ProcedureManager" target="org.apache.hadoop.hbase.classification.InterfaceAudience.Private">
+      <point x="44.00000000000003" y="-15.0" />
+      <point x="287.2651515151515" y="55.0" />
+      <point x="314.5833333333333" y="55.0" />
+      <point x="-34.666666666666686" y="15.0" />
+    </edge>
+    <edge source="org.apache.hadoop.hbase.master.snapshot.SnapshotManager" target="org.apache.hadoop.hbase.classification.InterfaceAudience.LimitedPrivate">
+      <point x="-63.0" y="-15.0" />
+      <point x="293.24999999999994" y="220.0" />
+      <point x="80.0" y="220.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.hadoop.hbase.procedure.ProcedureManager" target="org.apache.hadoop.hbase.classification.InterfaceStability.Evolving">
+      <point x="-43.99999999999997" y="-15.0" />
+      <point x="28.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.hadoop.hbase.Stoppable" target="org.apache.hadoop.hbase.classification.InterfaceAudience.Private">
+      <point x="0.0" y="-15.0" />
+      <point x="412.2651515151515" y="55.0" />
+      <point x="383.91666666666663" y="55.0" />
+      <point x="34.66666666666663" y="15.0" />
+    </edge>
+    <edge source="org.apache.hadoop.hbase.master.snapshot.SnapshotManager" target="org.apache.hadoop.hbase.classification.InterfaceStability.Unstable">
+      <point x="63.0" y="-15.0" />
+      <point x="419.25" y="220.0" />
+      <point x="508.76515151515144" y="220.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.hadoop.hbase.master.snapshot.SnapshotManager" target="org.apache.hadoop.hbase.procedure.MasterProcedureManager">
+      <point x="-21.0" y="-15.0" />
+      <point x="335.24999999999994" y="210.0" />
+      <point x="292.0" y="210.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.hadoop.hbase.procedure.MasterProcedureManager" target="org.apache.hadoop.hbase.procedure.ProcedureManager">
+      <point x="-28.00000000000003" y="-15.0" />
+      <point x="263.99999999999994" y="135.0" />
+      <point x="243.26515151515147" y="135.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.hadoop.hbase.master.snapshot.SnapshotManager" target="org.apache.hadoop.hbase.Stoppable">
+      <point x="21.000000000000007" y="-15.0" />
+      <point x="377.25" y="210.0" />
+      <point x="442.26515151515144" y="210.0" />
+      <point x="30.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.hadoop.hbase.procedure.MasterProcedureManager" target="org.apache.hadoop.hbase.classification.InterfaceAudience.Private">
+      <point x="27.99999999999997" y="-15.0" />
+      <point x="319.99999999999994" y="135.0" />
+      <point x="341.76515151515144" y="135.0" />
+      <point x="341.76515151515144" y="55.0" />
+      <point x="349.25" y="55.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.hadoop.hbase.procedure.MasterProcedureManager" target="org.apache.hadoop.hbase.Stoppable">
+      <point x="83.99999999999997" y="-15.0" />
+      <point x="375.99999999999994" y="135.0" />
+      <point x="382.2651515151515" y="135.0" />
+      <point x="-30.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="282.5" y="135.0" />
+  <SelectedNodes>
+    <node>org.apache.hadoop.hbase.master.snapshot.SnapshotManager</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
