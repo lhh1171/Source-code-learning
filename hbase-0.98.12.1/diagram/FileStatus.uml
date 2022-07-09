@@ -5,8 +5,8 @@
   <nodes>
     <node x="109.75" y="0.0">org.apache.hadoop.classification.InterfaceAudience.Public</node>
     <node x="225.75" y="0.0">org.apache.hadoop.classification.InterfaceStability.Stable</node>
-    <node x="159.75" y="80.0">org.apache.hadoop.io.Writable</node>
     <node x="0.0" y="80.0">java.lang.Comparable</node>
+    <node x="159.75" y="80.0">org.apache.hadoop.io.Writable</node>
     <node x="107.75" y="160.0">org.apache.hadoop.fs.FileStatus</node>
   </nodes>
   <notes />

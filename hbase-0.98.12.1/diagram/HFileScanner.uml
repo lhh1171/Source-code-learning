@@ -4,12 +4,12 @@
   <OriginalElement>org.apache.hadoop.hbase.io.hfile.HFileScanner</OriginalElement>
   <nodes>
     <node x="0.0" y="400.0">org.apache.hadoop.hbase.io.hfile.HFileReaderV3.ScannerV3</node>
-    <node x="72.0" y="80.0">org.apache.hadoop.hbase.io.hfile.HFileScanner</node>
     <node x="0.0" y="320.0">org.apache.hadoop.hbase.io.hfile.HFileReaderV2.ScannerV2</node>
+    <node x="72.0" y="80.0">org.apache.hadoop.hbase.io.hfile.HFileScanner</node>
     <node x="92.0" y="0.0">org.apache.hadoop.hbase.classification.InterfaceAudience.Private</node>
-    <node x="140.0" y="320.0">org.apache.hadoop.hbase.io.hfile.HFileReaderV2.EncodedScannerV2</node>
-    <node x="92.0" y="160.0">org.apache.hadoop.hbase.io.hfile.AbstractHFileReader.Scanner</node>
     <node x="52.0" y="240.0">org.apache.hadoop.hbase.io.hfile.HFileReaderV2.AbstractScannerV2</node>
+    <node x="92.0" y="160.0">org.apache.hadoop.hbase.io.hfile.AbstractHFileReader.Scanner</node>
+    <node x="140.0" y="320.0">org.apache.hadoop.hbase.io.hfile.HFileReaderV2.EncodedScannerV2</node>
     <node x="140.0" y="400.0">org.apache.hadoop.hbase.io.hfile.HFileReaderV3.EncodedScannerV3</node>
   </nodes>
   <notes />
@@ -51,9 +51,9 @@
   <SelectedNodes>
     <node>org.apache.hadoop.hbase.io.hfile.HFileReaderV3.ScannerV3</node>
     <node>org.apache.hadoop.hbase.io.hfile.HFileReaderV2.ScannerV2</node>
-    <node>org.apache.hadoop.hbase.io.hfile.HFileReaderV2.EncodedScannerV2</node>
-    <node>org.apache.hadoop.hbase.io.hfile.AbstractHFileReader.Scanner</node>
     <node>org.apache.hadoop.hbase.io.hfile.HFileReaderV2.AbstractScannerV2</node>
+    <node>org.apache.hadoop.hbase.io.hfile.AbstractHFileReader.Scanner</node>
+    <node>org.apache.hadoop.hbase.io.hfile.HFileReaderV2.EncodedScannerV2</node>
     <node>org.apache.hadoop.hbase.io.hfile.HFileReaderV3.EncodedScannerV3</node>
   </SelectedNodes>
   <Categories />
