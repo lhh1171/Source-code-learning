@@ -10,8 +10,8 @@
     <node x="199.75000000000003" y="80.0">org.apache.hadoop.hbase.Stoppable</node>
     <node x="70.0" y="400.0">org.apache.hadoop.hbase.TestZooKeeper.MockLoadBalancer</node>
     <node x="478.0" y="400.0">org.apache.hadoop.hbase.master.TestAssignmentManagerOnCluster.MyLoadBalancer</node>
-    <node x="483.0" y="0.0">org.apache.hadoop.classification.InterfaceAudience.Public</node>
     <node x="446.0" y="320.0">org.apache.hadoop.hbase.master.balancer.StochasticLoadBalancer</node>
+    <node x="483.0" y="0.0">org.apache.hadoop.classification.InterfaceAudience.Public</node>
     <node x="690.0" y="320.0">org.apache.hadoop.hbase.master.balancer.FavoredNodeLoadBalancer</node>
     <node x="294.0" y="240.0">org.apache.hadoop.hbase.master.balancer.BaseLoadBalancer</node>
     <node x="164.00000000000003" y="320.0">org.apache.hadoop.hbase.master.balancer.SimpleLoadBalancer</node>
@@ -78,17 +78,17 @@
       <point x="448.0" y="290.0" />
       <point x="66.0" y="15.0" />
     </edge>
-    <edge source="org.apache.hadoop.hbase.TestZooKeeper.MockLoadBalancer" target="org.apache.hadoop.hbase.master.balancer.SimpleLoadBalancer">
-      <point x="0.0" y="-15.0" />
-      <point x="158.0" y="375.0" />
-      <point x="212.00000000000003" y="375.0" />
-      <point x="-48.0" y="15.0" />
-    </edge>
     <edge source="org.apache.hadoop.hbase.master.balancer.SimpleLoadBalancer" target="org.apache.hadoop.hbase.master.balancer.BaseLoadBalancer">
       <point x="0.0" y="-15.0" />
       <point x="260.0" y="300.0" />
       <point x="360.0" y="300.0" />
       <point x="-22.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.hadoop.hbase.TestZooKeeper.MockLoadBalancer" target="org.apache.hadoop.hbase.master.balancer.SimpleLoadBalancer">
+      <point x="0.0" y="-15.0" />
+      <point x="158.0" y="375.0" />
+      <point x="212.00000000000003" y="375.0" />
+      <point x="-48.0" y="15.0" />
     </edge>
     <edge source="org.apache.hadoop.hbase.master.TestAssignmentManager.MockedLoadBalancer" target="org.apache.hadoop.hbase.master.balancer.SimpleLoadBalancer">
       <point x="0.0" y="-15.0" />

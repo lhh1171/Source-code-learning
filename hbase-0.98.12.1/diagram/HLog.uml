@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.apache.hadoop.hbase.regionserver.wal.HLog</OriginalElement>
+  <nodes>
+    <node x="0.0" y="240.0">org.apache.hadoop.hbase.regionserver.wal.FaultyHLog</node>
+    <node x="68.75" y="80.0">org.apache.hadoop.hbase.regionserver.wal.HLog</node>
+    <node x="86.0" y="160.0">org.apache.hadoop.hbase.regionserver.wal.FSHLog</node>
+    <node x="82.0" y="0.0">org.apache.hadoop.hbase.classification.InterfaceAudience.Private</node>
+    <node x="148.0" y="240.0">org.apache.hadoop.hbase.regionserver.wal.TestWALReplay.MockHLog</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.apache.hadoop.hbase.regionserver.wal.TestWALReplay.MockHLog" target="org.apache.hadoop.hbase.regionserver.wal.FSHLog">
+      <point x="0.0" y="-15.0" />
+      <point x="204.0" y="215.0" />
+      <point x="158.0" y="215.0" />
+      <point x="24.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.hadoop.hbase.regionserver.wal.HLog" target="org.apache.hadoop.hbase.classification.InterfaceAudience.Private">
+      <point x="0.0" y="-15.0" />
+      <point x="-26.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.hadoop.hbase.regionserver.wal.FaultyHLog" target="org.apache.hadoop.hbase.regionserver.wal.FSHLog">
+      <point x="0.0" y="-15.0" />
+      <point x="64.0" y="215.0" />
+      <point x="110.0" y="215.0" />
+      <point x="-24.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.hadoop.hbase.regionserver.wal.FSHLog" target="org.apache.hadoop.hbase.classification.InterfaceAudience.Private">
+      <point x="24.0" y="-15.0" />
+      <point x="158.0" y="135.0" />
+      <point x="159.25" y="135.0" />
+      <point x="26.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.hadoop.hbase.regionserver.wal.FSHLog" target="org.apache.hadoop.hbase.regionserver.wal.HLog">
+      <point x="-24.0" y="-15.0" />
+      <point x="110.0" y="135.0" />
+      <point x="108.75" y="135.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="130.0" y="135.0" />
+  <SelectedNodes>
+    <node>org.apache.hadoop.hbase.regionserver.wal.HLog</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

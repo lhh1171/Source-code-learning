@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.apache.hadoop.hbase.regionserver.wal.HLogKey</OriginalElement>
+  <nodes>
+    <node x="126.0" y="0.0">org.apache.hadoop.classification.InterfaceAudience.Public</node>
+    <node x="242.0" y="0.0">org.apache.hadoop.classification.InterfaceStability.Stable</node>
+    <node x="0.0" y="160.0">org.apache.hadoop.hbase.classification.InterfaceAudience.LimitedPrivate</node>
+    <node x="180.0" y="160.0">org.apache.hadoop.io.WritableComparable</node>
+    <node x="126.0" y="240.0">org.apache.hadoop.hbase.regionserver.wal.HLogKey</node>
+    <node x="176.0" y="80.0">org.apache.hadoop.io.Writable</node>
+    <node x="319.75" y="80.0">java.lang.Comparable</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.apache.hadoop.hbase.regionserver.wal.HLogKey" target="org.apache.hadoop.io.WritableComparable">
+      <point x="26.0" y="-15.0" />
+      <point x="204.0" y="215.0" />
+      <point x="276.0" y="215.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.hadoop.io.Writable" target="org.apache.hadoop.classification.InterfaceAudience.Public">
+      <point x="-28.0" y="-15.0" />
+      <point x="204.0" y="55.0" />
+      <point x="198.0" y="55.0" />
+      <point x="24.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.hadoop.io.WritableComparable" target="org.apache.hadoop.classification.InterfaceStability.Stable">
+      <point x="24.0" y="-15.0" />
+      <point x="300.0" y="135.0" />
+      <point x="309.25" y="135.0" />
+      <point x="309.25" y="55.0" />
+      <point x="314.0" y="55.0" />
+      <point x="24.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.hadoop.io.WritableComparable" target="org.apache.hadoop.classification.InterfaceAudience.Public">
+      <point x="-72.0" y="-15.0" />
+      <point x="204.0" y="135.0" />
+      <point x="154.75" y="135.0" />
+      <point x="154.75" y="55.0" />
+      <point x="150.0" y="55.0" />
+      <point x="-24.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.hadoop.io.Writable" target="org.apache.hadoop.classification.InterfaceStability.Stable">
+      <point x="28.0" y="-15.0" />
+      <point x="260.0" y="55.0" />
+      <point x="266.0" y="55.0" />
+      <point x="-24.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.hadoop.io.WritableComparable" target="org.apache.hadoop.io.Writable">
+      <point x="-24.0" y="-15.0" />
+      <point x="252.0" y="135.0" />
+      <point x="232.0" y="135.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.hadoop.io.WritableComparable" target="java.lang.Comparable">
+      <point x="72.0" y="-15.0" />
+      <point x="348.0" y="135.0" />
+      <point x="383.75" y="135.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.hadoop.hbase.regionserver.wal.HLogKey" target="org.apache.hadoop.hbase.classification.InterfaceAudience.LimitedPrivate">
+      <point x="-26.0" y="-15.0" />
+      <point x="152.0" y="215.0" />
+      <point x="80.0" y="215.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="224.0" y="135.0" />
+  <SelectedNodes>
+    <node>org.apache.hadoop.hbase.regionserver.wal.HLogKey</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
