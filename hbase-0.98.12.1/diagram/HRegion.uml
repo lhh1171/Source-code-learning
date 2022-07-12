@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.apache.hadoop.hbase.regionserver.HRegion</OriginalElement>
+  <nodes>
+    <node x="37.25" y="160.0">org.apache.hadoop.hbase.regionserver.HRegion</node>
+    <node x="37.25" y="0.0">org.apache.hadoop.hbase.classification.InterfaceAudience.Private</node>
+    <node x="0.0" y="80.0">org.apache.hadoop.hbase.io.HeapSize</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.apache.hadoop.hbase.io.HeapSize" target="org.apache.hadoop.hbase.classification.InterfaceAudience.Private">
+      <point x="0.0" y="-15.0" />
+      <point x="56.0" y="55.0" />
+      <point x="63.25" y="55.0" />
+      <point x="-26.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.hadoop.hbase.regionserver.HRegion" target="org.apache.hadoop.hbase.classification.InterfaceAudience.Private">
+      <point x="26.0" y="-15.0" />
+      <point x="115.25" y="135.0" />
+      <point x="122.5" y="135.0" />
+      <point x="122.5" y="55.0" />
+      <point x="115.25" y="55.0" />
+      <point x="26.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.hadoop.hbase.regionserver.HRegion" target="org.apache.hadoop.hbase.io.HeapSize">
+      <point x="-26.0" y="-15.0" />
+      <point x="63.25" y="135.0" />
+      <point x="56.0" y="135.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="71.0" y="95.0" />
+  <SelectedNodes>
+    <node>org.apache.hadoop.hbase.regionserver.HRegion</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
