@@ -4,8 +4,8 @@
   <OriginalElement>org.apache.hadoop.hbase.client.HBaseAdmin</OriginalElement>
   <nodes>
     <node x="0.0" y="80.0">org.apache.hadoop.hbase.classification.InterfaceAudience.Public</node>
-    <node x="272.0" y="0.0">org.apache.hadoop.hbase.classification.InterfaceAudience.LimitedPrivate</node>
     <node x="116.0" y="80.0">java.io.Closeable</node>
+    <node x="272.0" y="0.0">org.apache.hadoop.hbase.classification.InterfaceAudience.LimitedPrivate</node>
     <node x="322.0" y="80.0">org.apache.hadoop.hbase.Abortable</node>
     <node x="100.0" y="0.0">java.lang.AutoCloseable</node>
     <node x="215.0" y="160.0">org.apache.hadoop.hbase.client.HBaseAdmin</node>
@@ -19,16 +19,16 @@
       <point x="536.0" y="140.0" />
       <point x="28.0" y="15.0" />
     </edge>
-    <edge source="org.apache.hadoop.hbase.client.HBaseAdmin" target="java.io.Closeable">
-      <point x="-16.0" y="-15.0" />
-      <point x="263.0" y="130.0" />
-      <point x="176.0" y="130.0" />
-      <point x="0.0" y="15.0" />
-    </edge>
     <edge source="org.apache.hadoop.hbase.client.HBaseAdmin" target="org.apache.hadoop.hbase.classification.InterfaceAudience.Public">
       <point x="-48.0" y="-15.0" />
       <point x="231.0" y="140.0" />
       <point x="48.0" y="140.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.hadoop.hbase.client.HBaseAdmin" target="java.io.Closeable">
+      <point x="-16.0" y="-15.0" />
+      <point x="263.0" y="130.0" />
+      <point x="176.0" y="130.0" />
       <point x="0.0" y="15.0" />
     </edge>
     <edge source="org.apache.hadoop.hbase.Abortable" target="org.apache.hadoop.hbase.classification.InterfaceStability.Evolving">
@@ -37,14 +37,14 @@
       <point x="480.0" y="55.0" />
       <point x="-28.0" y="15.0" />
     </edge>
+    <edge source="java.io.Closeable" target="java.lang.AutoCloseable">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
     <edge source="org.apache.hadoop.hbase.client.HBaseAdmin" target="org.apache.hadoop.hbase.Abortable">
       <point x="16.0" y="-15.0" />
       <point x="295.0" y="130.0" />
       <point x="382.0" y="130.0" />
-      <point x="0.0" y="15.0" />
-    </edge>
-    <edge source="java.io.Closeable" target="java.lang.AutoCloseable">
-      <point x="0.0" y="-15.0" />
       <point x="0.0" y="15.0" />
     </edge>
     <edge source="org.apache.hadoop.hbase.Abortable" target="org.apache.hadoop.hbase.classification.InterfaceAudience.LimitedPrivate">

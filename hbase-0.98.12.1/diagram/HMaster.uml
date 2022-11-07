@@ -131,7 +131,7 @@
       <point x="0.0" y="15.0" />
     </edge>
   </edges>
-  <settings layout="Hierarchic Group" zoom="1.0" x="606.5" y="180.0" />
+  <settings layout="Hierarchic Group" zoom="0.7112733171127331" x="606.5" y="180.0" />
   <SelectedNodes>
     <node>org.apache.hadoop.hbase.master.HMaster</node>
   </SelectedNodes>

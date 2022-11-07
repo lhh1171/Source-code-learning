@@ -8,8 +8,8 @@
     <node x="116.0" y="0.0">org.apache.hadoop.classification.InterfaceStability.Stable</node>
     <node x="266.0" y="160.0">org.apache.hadoop.hbase.classification.InterfaceAudience.Public</node>
     <node x="54.0" y="160.0">org.apache.hadoop.io.WritableComparable</node>
-    <node x="193.75" y="80.0">java.lang.Comparable</node>
     <node x="50.0" y="80.0">org.apache.hadoop.io.Writable</node>
+    <node x="193.75" y="80.0">java.lang.Comparable</node>
     <node x="382.0" y="160.0">org.apache.hadoop.hbase.classification.InterfaceStability.Evolving</node>
   </nodes>
   <notes />
@@ -26,11 +26,13 @@
       <point x="72.0" y="55.0" />
       <point x="24.0" y="15.0" />
     </edge>
-    <edge source="org.apache.hadoop.hbase.HTableDescriptor" target="org.apache.hadoop.io.WritableComparable">
-      <point x="-58.66666666666666" y="-15.0" />
-      <point x="255.33333333333334" y="215.0" />
-      <point x="150.0" y="215.0" />
-      <point x="0.0" y="15.0" />
+    <edge source="org.apache.hadoop.io.WritableComparable" target="org.apache.hadoop.classification.InterfaceAudience.Public">
+      <point x="-72.0" y="-15.0" />
+      <point x="78.0" y="135.0" />
+      <point x="28.75" y="135.0" />
+      <point x="28.75" y="55.0" />
+      <point x="24.0" y="55.0" />
+      <point x="-24.0" y="15.0" />
     </edge>
     <edge source="org.apache.hadoop.io.WritableComparable" target="org.apache.hadoop.classification.InterfaceStability.Stable">
       <point x="24.0" y="-15.0" />
@@ -40,13 +42,11 @@
       <point x="188.0" y="55.0" />
       <point x="24.0" y="15.0" />
     </edge>
-    <edge source="org.apache.hadoop.io.WritableComparable" target="org.apache.hadoop.classification.InterfaceAudience.Public">
-      <point x="-72.0" y="-15.0" />
-      <point x="78.0" y="135.0" />
-      <point x="28.75" y="135.0" />
-      <point x="28.75" y="55.0" />
-      <point x="24.0" y="55.0" />
-      <point x="-24.0" y="15.0" />
+    <edge source="org.apache.hadoop.hbase.HTableDescriptor" target="org.apache.hadoop.io.WritableComparable">
+      <point x="-58.66666666666666" y="-15.0" />
+      <point x="255.33333333333334" y="215.0" />
+      <point x="150.0" y="215.0" />
+      <point x="0.0" y="15.0" />
     </edge>
     <edge source="org.apache.hadoop.io.Writable" target="org.apache.hadoop.classification.InterfaceStability.Stable">
       <point x="28.0" y="-15.0" />
